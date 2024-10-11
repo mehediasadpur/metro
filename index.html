@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhaka Metro Fare Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dhaka Metro Rail Fare Calculator</h1>
+    <div class="container">
+        <label for="from-station">From Station:</label>
+        <select id="from-station">
+            <option value="0" selected>Select Station</option>
+            <option value="1">Uttara North</option>
+            <option value="2">Uttara Center</option>
+            <option value="3">Uttara South</option>
+            <option value="4">Pallabi</option>
+            <option value="5">Mirpur-11</option>
+            <option value="6">Mirpur-10</option>
+            <option value="7">Kazipara</option>
+            <option value="8">Shewrapara</option>
+            <option value="9">Agargaon</option>
+            <option value="10">Bijoy Sarani</option>
+            <option value="11">Farmgate</option>
+            <option value="12">Kawran Bazar</option>
+            <option value="13">Shahbagh</option>
+            <option value="14">Dhaka University</option>
+            <option value="15">Bangladesh Secretariat</option>
+            <option value="16">Motijheel</option>
+        </select>
+
+        <label for="to-station">To Station:</label>
+        <select id="to-station">
+            <option value="0" selected>Select Station</option>
+            <option value="1">Uttara North</option>
+            <option value="2">Uttara Center</option>
+            <option value="3">Uttara South</option>
+            <option value="4">Pallabi</option>
+            <option value="5">Mirpur-11</option>
+            <option value="6">Mirpur-10</option>
+            <option value="7">Kazipara</option>
+            <option value="8">Shewrapara</option>
+            <option value="9">Agargaon</option>
+            <option value="10">Bijoy Sarani</option>
+            <option value="11">Farmgate</option>
+            <option value="12">Kawran Bazar</option>
+            <option value="13">Shahbagh</option>
+            <option value="14">Dhaka University</option>
+            <option value="15">Bangladesh Secretariat</option>
+            <option value="16">Motijheel</option>
+        </select>
+
+        <button onclick="calculateFare()">Calculate Fare</button>
+
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
