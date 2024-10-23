@@ -1,7 +1,7 @@
 // Fare matrix for Dhaka Metro (as an example, update with actual fare data)
 const fareMatrix = [
     // Uttara North, Uttara Center, Uttara South, Pallabi, Mirpur-11, Mirpur-10, Kazipara, Shewrapara, Agargaon, Bijoy Sarani, Farmgate, Kawran Bazar, Shahbagh, Dhaka University, Bangladesh Secretariat, Motijheel
-    [  0, 20, 20, 30, 30, 40, 40, 50, 60, 60, 70, 80, 80, 90, 90, 100], // Uttara North
+    [0, 20, 20, 30, 30, 40, 40, 50, 60, 60, 70, 80, 80, 90, 90, 100], // Uttara North
     [20,  0, 20, 20, 30, 30, 40, 40, 50, 60, 60, 70, 80, 80, 90, 90],  // Uttara Center
     [20, 20,  0, 20, 20, 30, 30, 40, 50, 50, 60, 60, 70, 80, 80, 90],  // Uttara South
     [30, 20, 20,  0, 20, 20, 30, 30, 40, 50, 50, 60, 60, 70, 70, 80],  // Pallabi
@@ -15,8 +15,8 @@ const fareMatrix = [
     [80, 70, 60, 60, 50, 50, 40, 40, 30, 30, 20,  0, 20, 30, 30, 40],  // Kawran Bazar
     [80, 80, 70, 60, 60, 50, 50, 40, 40, 30, 30, 20,  0, 20, 30, 30],  // Shahbagh
     [90, 80, 80, 70, 60, 60, 50, 50, 40, 40, 30, 30, 20,  0, 20, 30],  // Dhaka University
-    [90, 90, 80, 70, 70, 60, 60, 50, 50, 40, 40, 30, 30, 20,  0, 20],  // Bangladesh Secretariat
-    [100, 90, 90, 80, 70, 70, 60, 60, 50, 50, 40, 40, 30, 30, 20,  0]  // Motijheel
+    [90, 90, 80, 70, 70, 60, 50, 50, 40, 40, 30, 20, 20, 20,  0, 20],  // Bangladesh Secretariat
+    [100, 90, 90, 80, 70, 60, 60, 50, 50, 40, 30, 30, 20, 20, 20, 0]  // Motijheel
 ];
 
 // Function to calculate fare based on selected stations
